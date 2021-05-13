@@ -1,38 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada&family=Pattaya&family=Poppins:ital@1&display=swap');
+
 .App {
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: 'Poppins', sans-serif;
+  /* display: flex;
+  flex-flow: row nowrap; */
+  text-decoration: none;
+  font-size: x-large;
+  margin-right: 150px;
+  margin-left: 110px;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#navbar {
+  /* display: flex; */
+  background-color: #f7f6f6;
+  height: 100%;
+  margin-top: -25px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  align-content: flex-start;
+  /* word-spacing: 10px; */
+  color: rgb(8, 0, 0);
+  font-size: 13px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.greeting-body {
+  background-image: url(https://i.imgur.com/7aOytif.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  margin-top: 0px;
+  color: white;
+  font-family: 'Andada', serif;
+  
   align-items: center;
+  font-size: 45px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+
+.greeting-text {
+  margin-bottom: 190px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about-me {
+  background-color: #f7f6f6;
+  /* margin-top: -21px; */
+  height: 550px;
+  font-family: 'Poppins', sans-serif;
+  display: flex; 
+  /* align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap; */
+  /* vertical-align: top;
+  display: inline-block;  */
+}
+
+.about-text {
+  flex: 1 1 auto;
+  /* display: flex; */
+  width: min-content;
+  font: medium;
+  flex-direction: row;
+  margin-top: 150px;
+  margin-left: 15px;
+}
+
+.pic {
+  object-fit: contain;
+  align-self: flex-start;
+  margin-top: 110px;
+  margin-right: 50px;
+  border-radius: 25px;
+}
+
+#projects {
+  background-color: rgb(228, 221, 228);
+  margin-top: -21px;
+  font-family: 'Poppins', sans-serif;
+  height: 600px;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 40px;
+  margin-bottom: 100px;
+}
+
+.project-button {
+  font-family: 'Poppins', sans-serif;
+  border-radius: 25px;
+  margin-right: 50px;
+  height: 40px;
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.title-projects {
+  /* justify-content: center; */
+  margin-bottom: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.linkedin, .github {
+  font-size: 50px;
+}
+  
+
+#contact {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(211, 203, 203);
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  background-color: rgb(232, 222, 222);
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: auto;
+  column-count: auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: start;
+  margin-left: 500px;
+  margin-bottom: 10px;
+}
+
+.submit-button, .resume-button {
+  width: 70px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 25px;
+  height: 40px;
+  background-color: black;
+  color: white;
 }
